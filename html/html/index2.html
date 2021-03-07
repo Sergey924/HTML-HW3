@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/task-3.css">
+    <title>Блочная модель документа</title>
+</head>
+<body>
+        <header class="top-header">
+            <div class="wrap"> <h1>Блочная модель документа</h1>
+            Каждый элемент на странице представляет собой прямоугольный блок </div></header>
+
+       <main>
+           <div class="wrap">
+            <section class="about">
+                <h2> Блочная модель включает базовую высоту и ширину <br>
+                    плюс padding, border и margin</h2>
+                    <ul>
+                        <li class="item">max-width: 960px;</li>
+                        <li class="item">text-align: center;</li>
+                        <li class="item">color: #ffffff;</li>
+                        <li class="item">border: 6px solid #949599;</li>
+                        <li class="item">height: 100px;</li>
+                        <li class="item">margin: 20px;</li>
+                        <li class="item">padding: 20px;</li>
+                        <li class="item">width: 400px;</li>
+                    </ul>
+
+                    <article> Ширина: 492px = 20px + 6px + 20px + 400px + 20px + 6px + 20px</article>
+                
+                <div class="text">Блочная модель, без сомнения, одна из наиболее запутанных частей HTML и CSS. Мы устанавливаем
+                    значение свойства width как 400 пикселей, но фактическая ширина нашего элемента 492 пикселя.
+                     По умолчанию блочная модель коробка аддитивна. Таким образом, для определения фактического
+                      размера блока мы должны принять во внимание поля, границы и отступы для всех четырёх сторон
+                       блока. Наша ширина включает не только значение свойства width, но и размер левого и правого
+                        поля, левую и правую границу, левые и правые отступы.</div> 
+            </section>
+
+            <section class="partners">
+                <h4>Наши партнеры</h4>
+                <div class="partners-logo">
+                    <a class="par-logo-item" href="#"><img src="../img/company-delete.jpg" alt="delete"></a>
+                    <span class="part-name1">delete</span>
+                    <a class="par-logo-item" href="#"><img src="../img/company-home.jpg" alt="home"></a>
+                    <span class="part-name2">home</span>
+                    <a href="#"> <img src="../img/company-pure.jpg" alt="pure"></a>
+                    <span class="part-name3">pure</span>  
+            </section>
+            
+           </div>
+     
+       </main>
+      
+       <footer>
+           <div class="wrap">
+           <ul>
+               <li><a href="#">Главная</a></li>
+               <li><a href="#">Каталог</a></li>
+               <li><a href="#">О нас</a></li>
+               <li><a href="#">Контакты</a></li>
+           </ul>  
+        </div>
+       </footer>
+    
+   
+</body>
+</html>

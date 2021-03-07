@@ -1,0 +1,91 @@
+*{
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+}
+
+.wrap{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.top-header{
+    background-color:rgba(240,128,128);
+    color: white;
+    padding-bottom: 20px;
+}
+.top-header h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main{
+   background-color:#cccccc; 
+}
+main h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.about{
+    background-color: white;
+}
+.item{
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(218, 216, 216);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+.item:hover{
+    background-color:turquoise;
+    color: black;
+}
+.about article{
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    margin: 0 45px;
+    margin-bottom: 25px;
+}
+.text{
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+.partners{
+    text-align: center;
+    background-color: #52d44d;
+    padding-bottom: 50px;
+}
+.partners h4{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.par-logo-item{
+ margin-right: 150px;
+
+}
+
+.part-name1{
+
+    position: relative;
+    top: 25px;
+    right: 240px;
+}
+.part-name2{
+    position: relative;
+    top: 25px;
+    right: 240px;
+}
+.part-name3{
+    position: relative;
+    top: 25px;
+    right: 80px;
+}
+footer{
+    background-color: orange;
+}
+footer li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
